@@ -18,8 +18,7 @@ function LoginPage(props) {
     const handleLogin = async () => {
         try {
             console.log('Login');
-            console.log(username);
-            console.log(password);    
+            console.log(username);    
 
             await Auth.signIn(username, password)
 
